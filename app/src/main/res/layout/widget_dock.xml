@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dock_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glass_bg"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView android:id="@+id/cell_0"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_1"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_2"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_3"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_4"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_5"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView android:id="@+id/cell_6"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_7"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_8"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_9"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_10"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/cell_11"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:padding="8dp" android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</LinearLayout>
